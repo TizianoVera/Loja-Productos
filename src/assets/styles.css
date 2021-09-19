@@ -5,9 +5,86 @@
 }
 
 body{
-  background: rgb(148, 58, 58);
+  background: rgba(240, 242, 243, 0.966);
+  
 }
+
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+
+.carousel-control-prev-icon {
+  color: black !important;
+}
+
+.container {
+  
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+ margin: 5px;
+ position: relative;
+ width: 300px;
+ height: 400px;
+ /* background-color: black; */
+ box-shadow: 0px 30px 30px rgba(0,0,0,0.5);
+ background-image: url("https://cdn.pixabay.com/photo/2016/12/17/20/52/chocolate-1914464__340.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+  width: 80%;
+  height: 80px;
+  background-color:white;
+  left:10%;
+  text-align: center;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+h3 {
+font-size: 20px;
+text-transform: uppercase;
+margin: 25px;
+}
+
+.p {
+  width: 80%;
+  margin:10px auto;
+  font-size:18px ;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.card:hover .content{
+  height: 100%;
+  width: 100%;
+  left:0%;
+}
+
+
+.card:hover p,
+.card:hover a {
+  opacity: 1;
+  transition-delay: 0.5s;
+  text-decoration: none;
 }
