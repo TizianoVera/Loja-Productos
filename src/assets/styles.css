@@ -27,6 +27,7 @@ body{
 }
 
 .card1 {
+  
  margin: 5px;
  position: relative;
  width: 300px;
@@ -75,7 +76,7 @@ a {
   opacity: 0;
 }
 
-.card1:hover .content{
+.card1:hover .content1{
   height: 100%;
   width: 100%;
   left:0%;

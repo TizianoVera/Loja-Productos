@@ -3,8 +3,9 @@ import { CardGroup, Card } from "react-bootstrap";
 
 const CardBody = () => {
   return (
-    <div className=" comtainer">
-      <CardGroup classNome=" row row-cols-2" >
+    <div className=" comtainer ">
+
+      <CardGroup classNome="row-cols-1 row-cols-md-3 g-4  " >
         <Card className="" >
           <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2015/03/26/10/58/apple-692186__340.jpg" />
           <Card.Body>
@@ -47,8 +48,10 @@ const CardBody = () => {
           </Card.Footer>
         </Card>
       </CardGroup>
-      <hr/>
-      <CardGroup className="row row-cols-2">
+
+      <br/>
+
+      <CardGroup className="row-cols-1 row-cols-md-3 g-9">
         <Card className="">
           <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2015/03/26/10/58/apple-692186__340.jpg" />
           <Card.Body>
@@ -91,8 +94,10 @@ const CardBody = () => {
           </Card.Footer>
         </Card>
       </CardGroup>
-      <hr/>
-      <CardGroup className="row row-cols-2">
+
+      <br/>
+
+      <CardGroup className="row-cols-1 row-cols-md-3 g-4 ">
         <Card className="">
           <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2015/03/26/10/58/apple-692186__340.jpg" />
           <Card.Body>
@@ -135,6 +140,8 @@ const CardBody = () => {
           </Card.Footer>
         </Card>
       </CardGroup>
+
+     
     </div>
   );
 };
