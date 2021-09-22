@@ -227,16 +227,13 @@ const CardBody = () => {
                 <FcLike />
               </div>
               <Button variant="outline-warning">Comprar</Button>{" "}
-              <Modal.Footer>
-            <Button variant="secondary">Close</Button>
-            <Button variant="primary">Save changes</Button>
-          </Modal.Footer>
+              
             </Card.Body>
           </Card>
         </div>
       </section>
-
-      <section>
+        {/* modal emergente */}
+      {/* <section>
         <Modal.Dialog>
           <Modal.Header closeButton>
             <Modal.Title>Modal title</Modal.Title>
@@ -248,7 +245,7 @@ const CardBody = () => {
 
          
         </Modal.Dialog>
-      </section>
+      </section> */}
       
       
       <div>
