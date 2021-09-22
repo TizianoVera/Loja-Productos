@@ -45,7 +45,7 @@ const Header = () => {
         <Carousel.Item>
           <img
             className="vtex-carousel-2-x-img vtex-carousel-2-x-img--mx w-75 h-75 fz-100"
-            src="https://cdn.pixabay.com/photo/2017/04/23/09/44/smoothies-2253423__340.jpg"
+            src="https://img.ibxk.com.br/2020/03/09/09111156392166.jpg?w=1120&h=420&mode=crop&scale=both"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -56,7 +56,7 @@ const Header = () => {
         <Carousel.Item>
           <img
             className="vtex-carousel-2-x-img vtex-carousel-2-x-img--mx w-75 h-75"
-            src="https://cdn.pixabay.com/photo/2016/10/09/14/00/vegetable-juices-1725835__340.jpg"
+            src="https://img.ibxk.com.br/2019/11/27/27144836172153.jpg?w=1120&h=420&mode=crop&scale=both"
             alt="Second slide"
           />
 
@@ -68,7 +68,7 @@ const Header = () => {
         <Carousel.Item>
           <img
             className="vtex-carousel-2-x-img vtex-carousel-2-x-img--mx w-75 h-75"
-            src="https://cdn.pixabay.com/photo/2017/01/22/19/12/pizza-2000595__340.jpg"
+            src="https://img.ibxk.com.br/2021/08/13/13171116778385.jpg?w=704&h=264&mode=crop&scale=both"
             alt="Third slide"
           />
 
