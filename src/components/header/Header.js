@@ -6,9 +6,12 @@ import { Carousel } from "react-bootstrap";
 const Header = () => {
   return (
     <div>
-      <header>
-        <Navbar bg="black" expand="lg">
-          <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+      
+ 
+
+
+         <Navbar bg="dark" expand="lg" >
+          <Navbar.Brand bg="dark"  href="#">Navbar scroll</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="mr-auto my-2 my-lg-0 "  style={{ maxHeight: "100px" }} navbarScroll>
@@ -36,12 +39,12 @@ const Header = () => {
               <Button variant="info">Search</Button>
             </Form>
           </Navbar.Collapse>
-        </Navbar>
-      </header>
+        </Navbar> 
+      
 
       {/* comenso o carousel */}
 
-      <Carousel fade>
+      <Carousel fade className="mt-3">
         <Carousel.Item>
           <img
             className="vtex-carousel-2-x-img vtex-carousel-2-x-img--mx w-75 h-75 fz-100"
