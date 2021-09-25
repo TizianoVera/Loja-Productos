@@ -11,13 +11,13 @@ import CardBody from './components/body/CardBody.js';
 class App extends Component {
   render() {
 
-    return(
+    return (
       <div className="App">
-           <Header />
-           <CardBody />
+        <Header />
+        <CardBody />
       </div>
     );
-    
+
   }
 }
 
