@@ -207,7 +207,7 @@ const CardBody = () => {
         <Card className="mt-3">
           <Card.Img
             variant="bottom"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBehMs_bTrLBxfLbZ7hqsoPgUNwjNmW9qSEA&usqp=CAU"
+            src="https://hartfordrents.com/wp-content/uploads/2020/02/Category-Banner-Laptop-Gaming.jpg"
           />
           <Card.Body>
             <Card.Text>
