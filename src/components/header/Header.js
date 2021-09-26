@@ -86,8 +86,8 @@ const Header = () => {
       {/* comenso o carousel */}
       {/* comenso as card */}
       
-      <div class="container1">
-        <div class="card1">
+      <div class="container">
+        <div class="row">
           <div class="imgbox"></div>
           <div class="content1">
             <h3>Produto</h3>
@@ -97,7 +97,8 @@ const Header = () => {
               provident odio officia fugit ipsam laboriosam, delectus tempora
               tempore excepturi id debitis expedita architecto.
             </p>
-            <a href="#">Ler mais</a>
+            <a href="#" className="button">Ler mais</a>
+              <a href="#" className="button">Frete gratis</a>
           </div>
 
           <div class="card1">

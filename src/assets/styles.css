@@ -54,7 +54,7 @@ body{
   color: black !important;
 }
 
-.container1 {
+.container {
   margin: 10px;
   display: flex;
   justify-content: space-between;
