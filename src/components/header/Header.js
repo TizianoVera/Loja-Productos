@@ -88,6 +88,7 @@ const Header = () => {
       
       <div class="container">
         <div class="row">
+        <div class="card1">
           <div class="imgbox"></div>
           <div class="content1">
             <h3>Produto</h3>
@@ -99,6 +100,7 @@ const Header = () => {
             </p>
             <a href="#" className="button">Ler mais</a>
               <a href="#" className="button">Frete gratis</a>
+          </div>
           </div>
 
           <div class="card1">
