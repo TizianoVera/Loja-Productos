@@ -1,16 +1,17 @@
 import React from "react";
 import { IconName, FcLike, FcDislike, FcShipped } from "react-icons/fc";
-import Modal from "react-bootstrap/Modal";
+// import Modal from "react-bootstrap/Modal";
 import "../../assets/Card1.css";
 import { Card, Button, FontAwesomeIcon } from "react-bootstrap";
+
 
 import CardProduct from "./CardProduct";
 
 const CardBody = () => {
   return (
-    <div className="container  mt-1">
+    <div className="container-fluid  mt-1">
       <section className="row ">
-        <div className="col-md-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 col-xxl-2  mb-1 mt-2  ">
           <CardProduct
             title="Laptp PHP"
             variant="top"
@@ -23,7 +24,7 @@ const CardBody = () => {
           
         </div>
        
-        <div className="col-md-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 col-xxl-2  mb-2 mt-2">
         <CardProduct
             title="Laptp PHP"
             variant="top"
@@ -37,7 +38,7 @@ const CardBody = () => {
         </div>
 
 
-        <div className="col-md-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 col-xxl-2 mb-2 mt-2">
         <CardProduct
             title="Laptp PHP 3"
             variant="top"
@@ -50,9 +51,9 @@ const CardBody = () => {
           
         </div>
 
-        <div className="col-md-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 col-xxl-2  mb-2 mt-2">
         <CardProduct
-            title="Laptp PHP 4"
+            title="Laptp PHP 3"
             variant="top"
             img= "https://miro.medium.com/max/1200/1*UCf1F1rEBOrmFxbSuIrJag.jpeg"
             descriçao="jhond Some quick example text to build on the card title and make up
@@ -63,7 +64,7 @@ const CardBody = () => {
           
         </div>
 
-        <div className="col-md-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2 mb-2 mt-2">
         <CardProduct
             title="Laptp PHP 5"
             variant="top"
@@ -77,7 +78,7 @@ const CardBody = () => {
         </div>
 
 
-        <div className="col-md-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 col-xxl-2 mb-2 mt-2">
         <CardProduct
             title="Laptp PHP 6"
             variant="top"
@@ -96,7 +97,7 @@ const CardBody = () => {
           <Card>
             <Card.Img
               variant="bottom"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQun8Sh-hd9wGloBfY6BkWL_6CIX1iHV0noVA&usqp=CAU"
+              src="https://www.computersdirect.co.ke/wp-content/uploads/2020/11/intel-banner-en-new.jpg"
             />
             <Card.Body>
               <Card.Text>
@@ -111,7 +112,7 @@ const CardBody = () => {
 
 
 
-        <div className="col-md-2 mb-2 mt-3">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2  mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 7"
             variant="top"
@@ -125,7 +126,7 @@ const CardBody = () => {
         </div>
 
 
-        <div className="col-md-2 mb-2 mt-3">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 8"
             variant="top"
@@ -138,7 +139,7 @@ const CardBody = () => {
         
         </div>
         
-        <div className="col-md-2 mb-2 mt-3">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 9"
             variant="top"
@@ -151,7 +152,7 @@ const CardBody = () => {
         
         </div>
         
-        <div className="col-md-2 mb-2 mt-3">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 10"
             variant="top"
@@ -165,7 +166,7 @@ const CardBody = () => {
         </div>      
 
 
-         <div className="col-md-2 mb-2 mt-3">
+         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 11"
             variant="top"
@@ -178,7 +179,7 @@ const CardBody = () => {
         
         </div>     
 
-        <div className="col-md-2 mb-2 mt-3">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 12"
             variant="top"
@@ -189,19 +190,11 @@ const CardBody = () => {
           />
 
         
-        </div>     
-      
-      
-           
-      
+        </div>    
 
       
       </section>
       {/* modal emergente */}
-       
-
-
-
        
       <div>
         <Card className="mt-3">

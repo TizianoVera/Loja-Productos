@@ -12,13 +12,13 @@ import Body from './components/body/Body.js';
 class App extends Component {
   render() {
 
-    return(
+    return (
       <div className="App">
            <Header />
            <Body />
       </div>
     );
-    
+
   }
 }
 
