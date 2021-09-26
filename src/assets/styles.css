@@ -54,11 +54,12 @@ body{
   color: black !important;
 }
 
-.container {
-  margin: 10px;
+.cont1 {
+  margin-top: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  
   
 }
 

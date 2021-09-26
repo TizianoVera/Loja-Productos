@@ -86,7 +86,7 @@ const Header = () => {
       {/* comenso o carousel */}
       {/* comenso as card */}
       
-      <div class="container">
+      <div class="container cont1">
         <div class="row">
         <div class="card1">
           <div class="imgbox"></div>

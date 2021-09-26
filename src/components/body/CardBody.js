@@ -9,9 +9,9 @@ import CardProduct from "./CardProduct";
 
 const CardBody = () => {
   return (
-    <div className="container-fluid  mt-1">
+    <div className="container  mt-1 conte" >
       <section className="row ">
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 col-xxl-2  mb-1 mt-2  ">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-2 mb-2 mt-2  ">
           <CardProduct
             title="Laptp PHP"
             variant="top"
@@ -24,7 +24,7 @@ const CardBody = () => {
           
         </div>
        
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 col-xxl-2  mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-2 mb-2 mt-2">
         <CardProduct
             title="Laptp PHP"
             variant="top"
@@ -38,7 +38,7 @@ const CardBody = () => {
         </div>
 
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 col-xxl-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-2 col-xl-2mb-2 mt-2">
         <CardProduct
             title="Laptp PHP 3"
             variant="top"
@@ -51,7 +51,7 @@ const CardBody = () => {
           
         </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 col-xxl-2  mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-2 mb-2 mt-2">
         <CardProduct
             title="Laptp PHP 3"
             variant="top"
@@ -64,7 +64,7 @@ const CardBody = () => {
           
         </div>
 
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2mb-2 mt-2">
         <CardProduct
             title="Laptp PHP 5"
             variant="top"
@@ -78,7 +78,7 @@ const CardBody = () => {
         </div>
 
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 col-xxl-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-2 col-xl-2mb-2 mt-2">
         <CardProduct
             title="Laptp PHP 6"
             variant="top"
@@ -91,7 +91,7 @@ const CardBody = () => {
         
         </div>  
 
-       {/* ===========imagem longa */}
+       {/* ===========imagem longa ============================================================================*/}
 
         <div className="mt-3">
           <Card>
@@ -108,11 +108,11 @@ const CardBody = () => {
           </Card>
         </div>
 
-        {/* ========================== fim imagem longa */}
+        {/* ========================== fim imagem longa =========================================================*/}
 
 
 
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2  mb-2 mt-3">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2  mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 7"
             variant="top"
@@ -126,7 +126,7 @@ const CardBody = () => {
         </div>
 
 
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-3">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 8"
             variant="top"
@@ -139,7 +139,7 @@ const CardBody = () => {
         
         </div>
         
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-3">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 9"
             variant="top"
@@ -152,7 +152,7 @@ const CardBody = () => {
         
         </div>
         
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-3">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 10"
             variant="top"
@@ -166,7 +166,7 @@ const CardBody = () => {
         </div>      
 
 
-         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-3">
+         <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 11"
             variant="top"
@@ -179,7 +179,7 @@ const CardBody = () => {
         
         </div>     
 
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-3">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-2 mt-3">
         <CardProduct
             title="Laptp PHP 12"
             variant="top"
@@ -194,22 +194,11 @@ const CardBody = () => {
 
       
       </section>
-      {/* modal emergente */}
+      
        
-      <div>
-        <Card className="mt-3">
-          <Card.Img
-            variant="bottom"
-            src="https://hartfordrents.com/wp-content/uploads/2020/02/Category-Banner-Laptop-Gaming.jpg"
-          />
-          <Card.Body>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </div>
+     
+
+      
     </div>
   );
 };
