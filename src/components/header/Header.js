@@ -74,7 +74,7 @@ const Header = () => {
           />
 
           <Carousel.Caption>
-            <h4>Purpose</h4>
+            <h2>Purpose</h2>
             <p>
               Start with why and enrich others people´s lives the best way possibe by helping them, to solve their problems using our products.
             </p>
