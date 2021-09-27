@@ -5,7 +5,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
 import Header from "./components/header/Header";
-import CardBody from './components/body/CardBody.js';
 import Body from './components/body/Body.js';
 import Footer from "./components/footer/Footer";
 
@@ -17,7 +16,8 @@ class App extends Component {
       <div className="App">
            <Header />
            <Body />
-           <Footer/>
+           <Footer />
+           
       </div>
     );
 
