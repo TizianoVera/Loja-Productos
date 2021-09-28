@@ -1,46 +1,45 @@
 import React from "react";
 import "../../assets/styles.css";
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button,} from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button, } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
+import CardBody from "../body/CardBody";
 
 const Header = () => {
   return (
     <div>
-      
- 
 
 
-         <Navbar bg="dark" expand="lg" >
-          <Navbar.Brand bg="dark"  href="#">Navbar scroll</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav className="mr-auto my-2 my-lg-0 "  style={{ maxHeight: "100px" }} navbarScroll>
-              <Nav.Link href="#action1" bg="white">Home</Nav.Link>
-              <Nav.Link href="#action2">Link</Nav.Link>
-              <NavDropdown title="Link" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4"> Another action </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                  Something else here
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link href="#" disabled>
-                Link
-              </Nav.Link>
-            </Nav>
-            <Form className="d-flex justify-content-flex-end">
-              <FormControl
-                type="search"
-                placeholder="Search"
-                className="mr-2"
-                aria-label="Search"
-              />
-              <Button variant="info">Search</Button>
-            </Form>
-          </Navbar.Collapse>
-        </Navbar> 
-      
+
+
+      <Navbar className="Navbar" bg="" expand="lg" >
+        <Navbar.Brand className="Navbarbrand" bg="dark" href="#action1">TechWorld </Navbar.Brand>
+        <Navbar.Toggle className="dropdown-toggle" aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav className="mr-auto my-2 my-lg-0 " style={{ maxHeight: "100px" }} navbarScroll>
+            <Nav.Link className="Nav" href="#action1" bg="white">Home</Nav.Link>
+            <Nav.Link className="Link" href="#action2">Link</Nav.Link>
+            <NavDropdown title="Dropdown" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Another action </NavDropdown.Item>
+              <NavDropdown.Divider className="divider" />
+              <NavDropdown.Item href="#action5">
+                Something else here
+              </NavDropdown.Item>
+            </NavDropdown>
+
+          </Nav>
+          <Form className="d-flex justify-content-flex-end">
+            <FormControl
+              type="search"
+              placeholder="Search"
+              className="mr-2"
+              aria-label="Search"
+            />
+            <Button variant="info">Search</Button>
+          </Form>
+        </Navbar.Collapse>
+      </Navbar>
+
 
       {/* comenso o carousel */}
 
@@ -52,8 +51,8 @@ const Header = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h1>Think Big,Think Different</h1>
+            <p>Technology as an important part of our lives in the present days.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -64,8 +63,8 @@ const Header = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2>Our Goal</h2>
+            <p>Giving new solutions to old problems.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -76,9 +75,9 @@ const Header = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h2>Purpose</h2>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Start with why and enrich others people´s lives the best way possibe by helping them, to solve their problems using our products.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -87,7 +86,8 @@ const Header = () => {
       {/* comenso o carousel */}
       {/* comenso as card */}
       
-      <div class="container1">
+      <div class="container cont1">
+        <div class="row">
         <div class="card1">
           <div class="imgbox"></div>
           <div class="content1">
@@ -98,53 +98,59 @@ const Header = () => {
               provident odio officia fugit ipsam laboriosam, delectus tempora
               tempore excepturi id debitis expedita architecto.
             </p>
-            <a href="#">Ler mais</a>
+            <a href="#" className="button">Ler mais</a>
+              <a href="#" className="button">Frete gratis</a>
           </div>
-        </div>
+          </div>
 
-        <div class="card1">
-          <div class="imgbox"></div>
-          <div class="content1">
-            <h3>Produto</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              culpa eligendi accusantium blanditiis hic voluptas suscipit
-              provident odio officia fugit ipsam laboriosam, delectus tempora
-              tempore excepturi id debitis expedita architecto.
-            </p>
-            <a href="#">Ler mais</a>
+          <div class="card1">
+            <div class="imgbox"></div>
+            <div class="content1">
+              <h3>Produto</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                culpa eligendi accusantium blanditiis hic voluptas suscipit
+                provident odio officia fugit ipsam laboriosam, delectus tempora
+                tempore excepturi id debitis expedita architecto.
+              </p>
+              <a href="#" className="button">Ler mais</a>
+              <a href="#" className="button">Frete gratis</a>
+            </div>
           </div>
-        </div>
 
-        <div class="card1">
-          <div class="imgbox"></div>
-          <div class="content1">
-            <h3>Produto</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              culpa eligendi accusantium blanditiis hic voluptas suscipit
-              provident odio officia fugit ipsam laboriosam, delectus tempora
-              tempore excepturi id debitis expedita architecto.
-            </p>
-            <a href="#">Ler mais</a>
+          <div class="card1">
+            <div class="imgbox"></div>
+            <div class="content1">
+              <h3>Produto</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                culpa eligendi accusantium blanditiis hic voluptas suscipit
+                provident odio officia fugit ipsam laboriosam, delectus tempora
+                tempore excepturi id debitis expedita architecto.
+              </p>
+              <a href="#" className="button">Ler mais</a>
+              <a href="#" className="button">Frete gratis</a>
+            </div>
           </div>
-        </div>
 
-        <div class="card1">
-          <div class="imgbox"></div>
-          <div class="content1">
-            <h3>Produto</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              culpa eligendi accusantium blanditiis hic voluptas suscipit
-              provident odio officia fugit ipsam laboriosam, delectus tempora
-              tempore excepturi id debitis expedita architecto.
-            </p>
-            <a href="#">Ler mais</a>
+          <div class="card1">
+            <div class="imgbox"></div>
+            <div class="content1">
+              <h3>Produto</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                culpa eligendi accusantium blanditiis hic voluptas suscipit
+                provident odio officia fugit ipsam laboriosam, delectus tempora
+                tempore excepturi id debitis expedita architecto.
+              </p>
+              <a href="#" className="button">Ler mais</a>
+              <a href="#" className="button">Frete gratis</a>
+            </div>
           </div>
+
+          {/* fim as card */}
         </div>
       </div>
-      {/* fim as card */}
     </div>
   );
 };
