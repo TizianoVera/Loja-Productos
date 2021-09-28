@@ -14,7 +14,7 @@
   
     border: none;
     outline: none;
-    background-color: rgba(255, 255, 255, 0.469);
+    background-color: rgba(255, 255, 255, 0.76);
     border-radius: 10px;
     transition: transform .3s;
 }
@@ -24,7 +24,10 @@
    padding: 3px !important;
    
 }
-
+.cardBodyProduto{
+    color: black;
+    font-size: 17px;
+}
 .comprautton:hover{
     
     box-shadow: 2px 4px 8px rgb(35, 35, 35) ;
