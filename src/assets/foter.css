@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .caixaPrimeira> h1,
+  .caixaPrimeira> p,
+  .caixaPrimeira> li , a {
+    font-family: Lato;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+
+  .caixaPrimeira> li, a:hover {
+    text-decoration: none;
+    color: #0528ee;
+  }
+  
+  .caixaPrincipal {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #7b7672;
+    border-bottom: 1px solid #7b7672;
+    margin: 20px 25px 10px 25px;
+    padding: 0px 5px 0px 15px;
+  }
+  
+  .caixaInternaPrimeira {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .caixaPrimeira,
+  .caixaSegunda,
+  .caixaTercera {
+    list-style: none;
+    line-height: 30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+  }
+  
+  .caixaPrimeira p,
+  .caixaSegunda p,
+  .caixaTercera p {
+    font-size: 26p;
+    font-weight: 600;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .caixaSegunda {
+    border-left: #7b7672 1px solid;
+    border-right: #7b7672 1px solid;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 25px 10px 25px;
+    font-size: 12px;
+    width: auto;
+  }
+  
+  .caixaFoot {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 25px 10px 25px;
+    border-bottom: #24271f 1px solid;
+  }
+  
+  .caixaCopyrigh a[p] {
+    font-weight: 900;
+    color: aqua;
+    margin: 15px;
+  }
+  .num1,
+  .num2,
+  .num3,
+  .num4 {
+    float: left;
+    margin: 15px;
+  }
+  
+  .redes {
+    padding-left: 10px;
+  }

@@ -11,7 +11,7 @@ export default class cCardProduct extends Component {
     render() {
         return (
             <div >
-                 <Card style={{ width: "13rem" }}>
+                 <Card style={{ width: "12rem" }}>
             <Card.Img
               variant="top"
 

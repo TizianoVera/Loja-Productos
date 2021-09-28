@@ -2,6 +2,7 @@ import React from "react";
 import "../../assets/styles.css";
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button, } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
+import CardBody from "../body/CardBody";
 
 const Header = () => {
   return (
@@ -74,7 +75,7 @@ const Header = () => {
           />
 
           <Carousel.Caption>
-            <h4>Purpose</h4>
+            <h2>Purpose</h2>
             <p>
               Start with why and enrich others people´s lives the best way possibe by helping them, to solve their problems using our products.
             </p>
