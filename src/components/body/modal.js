@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Button, modal} from "react-bootstrap"
 
 function modal() {
     const [show, setShow] = useState(false);
@@ -8,7 +8,7 @@ function modal() {
     const handleShow = () => setShow(true);
   
     return (
-      <>
+      <di>
         <Button variant="primary" onClick={handleShow}>
           Launch demo modal
         </Button>
@@ -27,7 +27,7 @@ function modal() {
             </Button>
           </Modal.Footer>
         </Modal>
-      </>
+      </di>
     );
   }
   

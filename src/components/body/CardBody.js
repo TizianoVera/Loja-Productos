@@ -1,122 +1,103 @@
 import React from "react";
-import { IconName, FcLike, FcDislike } from "react-icons/fc";
-import Modal from 'react-bootstrap/Modal'
+import { IconName, FcLike, FcDislike, FcShipped } from "react-icons/fc";
+// import Modal from "react-bootstrap/Modal";
 import "../../assets/Card1.css";
 import { Card, Button, FontAwesomeIcon } from "react-bootstrap";
 
+
+import CardProduct from "./CardProduct";
+
 const CardBody = () => {
   return (
-    <div className="container  mt-1">
+    <div className="container  mt-1 conte" >
       <section className="row ">
-        <div className="col-md-3 mb-3 ">
-          <Card style={{ width: "20rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://ausdroid.net/wp-content/uploads/2021/05/img_1990-scaled.jpg"
-            />
-            <Card.Body>
-              <Card.Title> Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div class="star mt-2 mb-3 align-items-center ">
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-              </div>
-              <Button variant="outline-warning">Copmrar</Button>{" "}
-            </Card.Body>
-          </Card>
+        <div className="col-12 col-sm-6  col-md-4 col-lg-2 mb-2 mt-2  ">
+          <CardProduct
+            title="Laptp PHP"
+            variant="top"
+            img="https://www.fotografia-dg.com/imagens-wp/2020/07/melhor-notebook-2020.jpg"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+            precios="R$ 1.5034,32"
+          />
+
+          
+        </div>
+       
+        <div className="col-12 col-sm-6  col-md-4 col-lg-2 mb-2 mt-2">
+        <CardProduct
+            title="Laptp PHP"
+            variant="top"
+            img= "https://i.ytimg.com/vi/Z2MyXuHstIs/maxresdefault.jpg"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
+          />
+
+          
         </div>
 
-        <div className="col-md-3 mb-3 ">
-          <Card style={{ width: "20rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://navbharattimes.indiatimes.com/photo/msid-84232863,imgsize-197019/pic.jpg"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div class="star mt-2 mb-3 align-items-center ">
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcDislike />
-                <FcDislike />
-                <FcDislike />
-              </div>
-              <Button variant="outline-warning">Copmrar</Button>{" "}
-            </Card.Body>
-          </Card>
+
+        <div className="col-12 col-sm-6  col-md-4 col-lg-2 col-xl-2mb-2 mt-2">
+        <CardProduct
+            title="Laptp PHP 3"
+            variant="top"
+            img= "https://cdn.wccftech.com/wp-content/uploads/2020/06/1_K8nqevbb3a-GWxuufuZ7uQ.png"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
+          />
+
+          
         </div>
 
-        <div className="col-md-3 mb-3 ">
-          <Card style={{ width: "20rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFQWfPGmBPrNYuJt6146MXjAj1B2DtOLozqg&usqp=CAU"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div class="star mt-2 mb-3 align-items-center ">
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcDislike />
-                <FcDislike />
-                <FcDislike />
-              </div>
-              <Button variant="outline-warning">Copmrar</Button>{" "}
-            </Card.Body>
-          </Card>
+        <div className="col-12 col-sm-6  col-md-4 col-lg-2 mb-2 mt-2">
+        <CardProduct
+            title="Laptp PHP 3"
+            variant="top"
+            img= "https://miro.medium.com/max/1200/1*UCf1F1rEBOrmFxbSuIrJag.jpeg"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
+          />
+
+          
         </div>
 
-        <div className="col-md-3 mb-3 ">
-          <Card style={{ width: "20rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://thegadgetflow.com/wp-content/uploads/2021/04/Microsoft-Surface-Laptop-4-02-1200x900.jpeg"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div class="star mt-2 mb-3 align-items-center ">
-                <FcLike />
-                <FcLike />
-                <FcDislike />
-                <FcDislike />
-                <FcDislike />
-              </div>
-              <Button variant="outline-warning">Copmrar</Button>{" "}
-            </Card.Body>
-          </Card>
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2mb-2 mt-2">
+        <CardProduct
+            title="Laptp PHP 5"
+            variant="top"
+            img= "https://images.indianexpress.com/2021/03/Gaming-Laptops-1.jpg"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
+          />
+
+          
         </div>
 
-        {/* ===========imagem longa */}
 
-        <div>
+        <div className="col-12 col-sm-6  col-md-4 col-lg-2 col-xl-2mb-2 mt-2">
+        <CardProduct
+            title="Laptp PHP 6"
+            variant="top"
+            img= "https://img.paisawapas.com/ovz3vew9pw/2020/10/21110553/best-laptops-for-gaming.jpg"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
+          />
+
+        
+        </div>  
+
+       {/* ===========imagem longa ============================================================================*/}
+
+        <div className="mt-3">
           <Card>
             <Card.Img
               variant="bottom"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQun8Sh-hd9wGloBfY6BkWL_6CIX1iHV0noVA&usqp=CAU"
+              src="https://www.computersdirect.co.ke/wp-content/uploads/2020/11/intel-banner-en-new.jpg"
             />
             <Card.Body>
               <Card.Text>
@@ -127,141 +108,97 @@ const CardBody = () => {
           </Card>
         </div>
 
-        {/* ========================== fim imagem longa */}
+        {/* ========================== fim imagem longa =========================================================*/}
 
-        <div className="col-md-3 mb-3 mt-3">
-          <Card style={{ width: "20rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://tactfulminds.com/wp-content/uploads/2018/04/featured2-800x445.jpg"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div class="star mt-2 mb-3 align-items-center ">
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcDislike />
-              </div>
-              <Button variant="outline-warning">Copmrar</Button>{" "}
-            </Card.Body>
-          </Card>
-        </div>
 
-        <div className="col-md-3 mb-3 mt-3">
-          <Card style={{ width: "20rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://i.ytimg.com/vi/Z2MyXuHstIs/maxresdefault.jpg"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div class="star mt-2 mb-3 align-items-center ">
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcDislike />
-              </div>
-              <Button variant="outline-warning">Copmrar</Button>{" "}
-            </Card.Body>
-          </Card>
-        </div>
 
-        <div className="col-md-3 mb-3 mt-3">
-          <Card style={{ width: "20rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://cdn.wccftech.com/wp-content/uploads/2020/06/1_K8nqevbb3a-GWxuufuZ7uQ.png"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div class="star mt-2 mb-3 align-items-center ">
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-              </div>
-              <Button variant="outline-warning">Comprar</Button>{" "}
-            </Card.Body>
-          </Card>
-        </div>
-
-        <div className="col-md-3 mb-3 mt-3">
-          <Card style={{ width: "20rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://miro.medium.com/max/1200/1*UCf1F1rEBOrmFxbSuIrJag.jpeg"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div class="star mt-2 mb-3 align-items-center ">
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-                <FcLike />
-              </div>
-              <Button variant="outline-warning">Comprar</Button>{" "}
-              
-            </Card.Body>
-          </Card>
-        </div>
-      </section>
-        {/* modal emergente */}
-      {/* <section>
-        <Modal.Dialog>
-          <Modal.Header closeButton>
-            <Modal.Title>Modal title</Modal.Title>
-          </Modal.Header>
-
-          <Modal.Body>
-            <p>Modal body text goes here.</p>
-          </Modal.Body>
-
-         
-        </Modal.Dialog>
-      </section> */}
-      
-      
-      <div>
-        <Card className="mt-2">
-          <Card.Img
-            variant="bottom"
-            src="https://www.hcbonline.us/portals/heritagecommunitybank/Images/Online%20Banking.png?ver=QFYpnd7CsnKvsNPZLpYoSg%3D%3D"
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2  mb-2 mt-3">
+        <CardProduct
+            title="Laptp PHP 7"
+            variant="top"
+            img= "https://tactfulminds.com/wp-content/uploads/2018/04/featured2-800x445.jpg"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
           />
-          <Card.Body>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </div>
+
+        
+        </div>
+
+
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-2 mt-3">
+        <CardProduct
+            title="Laptp PHP 8"
+            variant="top"
+            img= "https://www.cnet.com/a/img/fSG68GMMapah815ZPfwvEXrTDsE=/1200x675/2021/04/12/ec06344f-4113-4966-9b4f-8fdcd129869f/014-hp-spectre-x360-14.jpg"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
+          />
+
+        
+        </div>
+        
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-2 mt-3">
+        <CardProduct
+            title="Laptp PHP 9"
+            variant="top"
+            img= "https://cdn.wccftech.com/wp-content/uploads/2020/06/1_K8nqevbb3a-GWxuufuZ7uQ.png"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
+          />
+
+        
+        </div>
+        
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-2 mt-3">
+        <CardProduct
+            title="Laptp PHP 10"
+            variant="top"
+            img= "https://images.prismic.io/frameworkmarketplace/5d87bd50-8e78-4a7a-ade9-4356e3693416_Pre-Marketplace+-+image_02.jpg?auto=compress,format"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
+          />
+
+        
+        </div>      
+
+
+         <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-2 mt-3">
+        <CardProduct
+            title="Laptp PHP 11"
+            variant="top"
+            img= "https://cdn.mos.cms.futurecdn.net/QzNQrNQ6HMcb652X46WJZY-1200-80.jpg"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
+          />
+
+        
+        </div>     
+
+        <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-2 mt-3">
+        <CardProduct
+            title="Laptp PHP 12"
+            variant="top"
+            img= "https://www.xmg.gg/wp-content/uploads/background_fusion-15-1920x1080.jpg"
+            descriçao="jhond Some quick example text to build on the card title and make up
+              the bulk of the card's content."
+              precios="R$ 1.5034,32"
+          />
+
+        
+        </div>    
+
+      
+      </section>
+      
+       
+     
+
+      
     </div>
   );
 };

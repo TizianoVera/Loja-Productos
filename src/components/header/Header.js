@@ -2,6 +2,7 @@ import React from "react";
 import "../../assets/styles.css";
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button, } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
+import CardBody from "../body/CardBody";
 
 const Header = () => {
   return (
@@ -74,7 +75,7 @@ const Header = () => {
           />
 
           <Carousel.Caption>
-            <h4>Purpose</h4>
+            <h2>Purpose</h2>
             <p>
               Start with why and enrich others people´s lives the best way possibe by helping them, to solve their problems using our products.
             </p>
@@ -84,23 +85,22 @@ const Header = () => {
 
       {/* comenso o carousel */}
       {/* comenso as card */}
-      <hr />
-      <div class="container">
-        <div className="row">
-
-          <div class="card1  col-md-2 mb-2 mt-2">
-            <div class="imgbox"></div>
-            <div class="content1">
-              <h3>Produto</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                culpa eligendi accusantium blanditiis hic voluptas suscipit
-                provident odio officia fugit ipsam laboriosam, delectus tempora
-                tempore excepturi id debitis expedita architecto.
-              </p>
-              <a href="#" className="button">Ler mais</a>
+      
+      <div class="container cont1">
+        <div class="row">
+        <div class="card1">
+          <div class="imgbox"></div>
+          <div class="content1">
+            <h3>Produto</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              culpa eligendi accusantium blanditiis hic voluptas suscipit
+              provident odio officia fugit ipsam laboriosam, delectus tempora
+              tempore excepturi id debitis expedita architecto.
+            </p>
+            <a href="#" className="button">Ler mais</a>
               <a href="#" className="button">Frete gratis</a>
-            </div>
+          </div>
           </div>
 
           <div class="card1">
