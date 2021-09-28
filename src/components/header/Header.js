@@ -85,21 +85,23 @@ const Header = () => {
 
       {/* comenso o carousel */}
       {/* comenso as card */}
-      
+      <hr />
       <div class="container">
-        <div class="row">
-          
-          <div class="imgbox"></div>
-          <div class="content1">
-            <h3>Produto</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              culpa eligendi accusantium blanditiis hic voluptas suscipit
-              provident odio officia fugit ipsam laboriosam, delectus tempora
-              tempore excepturi id debitis expedita architecto.
-            </p>
-            <a href="#" className="button">Ler mais</a>
+        <div className="row">
+
+          <div class="card1  col-md-2 mb-2 mt-2">
+            <div class="imgbox"></div>
+            <div class="content1">
+              <h3>Produto</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                culpa eligendi accusantium blanditiis hic voluptas suscipit
+                provident odio officia fugit ipsam laboriosam, delectus tempora
+                tempore excepturi id debitis expedita architecto.
+              </p>
+              <a href="#" className="button">Ler mais</a>
               <a href="#" className="button">Frete gratis</a>
+            </div>
           </div>
 
           <div class="card1">
