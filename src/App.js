@@ -4,7 +4,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
 
-import Header from "./components/header/Header";
+import Header from "./components/header/Header.js";
 import CardBody from './components/body/CardBody.js';
 
 
