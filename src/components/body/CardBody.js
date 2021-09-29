@@ -78,7 +78,7 @@ const CardBody = () => {
 
         {/* ===========imagem longa ============================================================================*/}
 
-        <div className="mt-3 cardBodyProduto">
+        <div className="mt-3 cardBod">
           <Card>
             <Card.Img
               variant="bottom"
@@ -164,7 +164,7 @@ const CardBody = () => {
         <div>
           <Card className="mt-3">
             <Card.Body>
-              <Card.Text className="cardBodyProduto">
+              <Card.Text className="cardBod">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
