@@ -6,20 +6,20 @@ import "../../assets/Card1.css";
 import {  ImCart } from "react-icons/im";
 
 
-export default class cCardProduct extends Component {
+export default class CardProduct extends Component {
   
 
   render() {
     return (
       <div className="cardBod">
-        <Card style={{ width: "12rem" }}>
+        <Card style={{ width: "13rem" }} >
           <Card.Img variant="top" src={this.props.img} />
 
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>{this.props.descriçao}</Card.Text>
 
-            <span>{this.props.precios} </span>
+            <span  className="span">{this.props.precios} </span>
             <div class=" icons star mt-2 mb-3 align-items-center ">
               <BsStarFill />
               <BsStarFill />
@@ -27,8 +27,8 @@ export default class cCardProduct extends Component {
               <BsStarFill />
               <BsStarFill />
             </div>
-            <div>
-              {/* button do modal */}
+            <div className="iconsconpra">
+                            {/* button do modal */}
               
               <Button
                 
@@ -49,7 +49,25 @@ export default class cCardProduct extends Component {
             </div>
           </Card.Body>
         </Card>
+
+
+        {/* <Card className="mt-3">
+            <Card.Body>
+                 
+              <Card/>
+              <Card.Text className="cardBod">
+                {this.props.comment}
+              </Card.Text>
+            </Card.Body>
+            <Card.Img variant="bottom" src={this.props.img2} />
+          </Card> */}
+
+
+
+
+
       </div>
+    
     );
   }
 }

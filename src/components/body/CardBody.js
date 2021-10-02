@@ -2,14 +2,17 @@ import React from "react";
 import { IconName, FcLike, FcDislike, FcShipped } from "react-icons/fc";
 // import Modal from "react-bootstrap/Modal";
 import "../../assets/Card1.css";
-import { Card, Button, FontAwesomeIcon } from "react-bootstrap";
-
+import { Card, Button, FontAwesomeIcon,  } from "react-bootstrap";
+import Modal from "./Modal"
 import CardProduct from "./CardProduct";
+import { BsTypeH2 } from "react-icons/bs";
 
 const CardBody = () => {
   return (
-    <div className="container  mt-1 conte">
-      <section className="row ">
+    
+    <div className="container  mt-1 ">
+      
+      <section className="row conte ">
         <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 mt-2  ">
           <CardProduct
             title="Laptp PHP"
@@ -18,10 +21,11 @@ const CardBody = () => {
             descriçao="jhond Some quick example text to build on the card title and make up
               the bulk of the card's content."
             precios="R$ 1.5034,32"
+            compra="compra"
           />
         </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-2 ">
           <CardProduct
             title="Laptp PHP"
             variant="top"
@@ -32,7 +36,7 @@ const CardBody = () => {
           />
         </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 mb-2 mt-2 ">
           <CardProduct
             title="Laptp PHP 3"
             variant="top"
@@ -43,7 +47,7 @@ const CardBody = () => {
           />
         </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 mb-2 mt-2 ">
           <CardProduct
             title="Laptp PHP 3"
             variant="top"
@@ -54,9 +58,9 @@ const CardBody = () => {
           />
         </div>
 
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mt-2 ">
           <CardProduct
-            title="Laptp PHP 5"
+            title="Laptp PH"
             variant="top"
             img="https://images.indianexpress.com/2021/03/Gaming-Laptops-1.jpg"
             descriçao="jhond Some quick example text to build on the card title and make up
@@ -65,7 +69,7 @@ const CardBody = () => {
           />
         </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 mb-2 mt-2">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2 mb-2 mt-2 ">
           <CardProduct
             title="Laptp PHP 6"
             variant="top"
@@ -78,7 +82,7 @@ const CardBody = () => {
 
         {/* ===========imagem longa ============================================================================*/}
 
-        <div className="mt-3 cardBod">
+        <div className="mt-3 cardBod container m-2">
           <Card>
             <Card.Img
               variant="bottom"
@@ -95,7 +99,7 @@ const CardBody = () => {
 
         {/* ========================== fim imagem longa =========================================================*/}
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
           <CardProduct
             title="Laptp PHP 7"
             variant="top"
@@ -106,7 +110,7 @@ const CardBody = () => {
           />
         </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
           <CardProduct
             title="Laptp PHP 8"
             variant="top"
@@ -117,7 +121,7 @@ const CardBody = () => {
           />
         </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
           <CardProduct
             title="Laptp PHP 9"
             variant="top"
@@ -128,7 +132,7 @@ const CardBody = () => {
           />
         </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
           <CardProduct
             title="Laptp PHP 10"
             variant="top"
@@ -139,7 +143,7 @@ const CardBody = () => {
           />
         </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
           <CardProduct
             title="Laptp PHP 11"
             variant="top"
@@ -150,7 +154,7 @@ const CardBody = () => {
           />
         </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3">
+        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
           <CardProduct
             title="Laptp PHP 12"
             variant="top"
@@ -162,9 +166,9 @@ const CardBody = () => {
         </div>
 
         <div>
-          <Card className="mt-3">
+          <Card className="mt-3 m-4">
             <Card.Body>
-              <Card.Text className="cardBod">
+              <Card.Text className="cardBod container">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>

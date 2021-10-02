@@ -1,8 +1,8 @@
 import React from "react";
 import {Button, Modal} from "react-bootstrap"
-import CardProduct from "./CardProduct";
 
-function Modal() {
+
+function chow() {
     const [show, setShow] = useState(false);  
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -21,12 +21,12 @@ function Modal() {
           </Modal.Header>
           <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
           <Modal.Footer>
-            {/* <Button variant="secondary" onClick={handleClose}>
+            <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
             <Button variant="primary" onClick={handleClose}>
-              Save Changes
-            </Button> */}
+              {this.props.compra}
+            </Button>
           </Modal.Footer>
         </Modal>
       </div>
