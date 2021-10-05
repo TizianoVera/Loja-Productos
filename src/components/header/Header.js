@@ -17,10 +17,10 @@ const Header = () => {
         <Navbar.Collapse id="navbarScroll">
           <Nav className="mr-auto my-2 my-lg-0 " style={{ maxHeight: "100px" }} navbarScroll>
             <Nav.Link className="Nav" href="#action1" bg="white">Home</Nav.Link>
-            <Nav.Link className="Link" href="#action2">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Another action </NavDropdown.Item>
+            <Nav.Link className="Link" href="#action2">Product</Nav.Link>
+            <NavDropdown title="Main" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Help</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Contact</NavDropdown.Item>
               <NavDropdown.Divider className="divider" />
               <NavDropdown.Item href="#action5">
                 Something else here

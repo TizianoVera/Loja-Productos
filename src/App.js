@@ -15,20 +15,12 @@ class App extends Component {
 
     return (
       <div className="App">
-<<<<<<< HEAD
-        <Header />
-        <Body />
-        <Footer />
-
-      </div >
-=======
            <Header />
            <Body />
           <Modal/>
            <Footer />
            
       </div>
->>>>>>> 32204df7e135b2c554a83f7c15bcd28af8f2e854
     );
 
   }
