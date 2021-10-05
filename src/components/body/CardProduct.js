@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import { Card, Button } from "react-bootstrap";
-import { Modal } from "react-bootstrap";
+import "./Modal"
 import { IconName, BsStarFill, } from "react-icons/bs";
 import "../../assets/Card1.css";
-import {  ImCart } from "react-icons/im";
+import { ImCart } from "react-icons/im";
 
 
 export default class CardProduct extends Component {
-  
+
 
   render() {
+
     return (
       <div className="cardBod">
         <Card style={{ width: "13rem" }} >
@@ -19,7 +20,7 @@ export default class CardProduct extends Component {
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>{this.props.descriçao}</Card.Text>
 
-            <span  className="span">{this.props.precios} </span>
+            <span className="span price">{this.props.precios} </span>
             <div class=" icons star mt-2 mb-3 align-items-center ">
               <BsStarFill />
               <BsStarFill />
@@ -28,46 +29,33 @@ export default class CardProduct extends Component {
               <BsStarFill />
             </div>
             <div className="iconsconpra">
-                            {/* button do modal */}
-              
+            
+
               <Button
-                
                 variant="dark"
                 size="sm"
-                className="comprautton"
+                className="comprautton" 
               >
-                Comprar 
+                comprar
               </Button>{" "}
+
+
               <Button
-                
+
                 variant="warning "
                 size="sm"
-                className="comprautton"
-              >
-                 <ImCart/>
+                className="comprautton itenCard"
+              > 
+                <ImCart /> +
               </Button>{" "}
             </div>
           </Card.Body>
-        </Card>
-
-
-        {/* <Card className="mt-3">
-            <Card.Body>
-                 
-              <Card/>
-              <Card.Text className="cardBod">
-                {this.props.comment}
-              </Card.Text>
-            </Card.Body>
-            <Card.Img variant="bottom" src={this.props.img2} />
-          </Card> */}
-
-
-
+        </Card>   
 
 
       </div>
-    
+
     );
   }
 }
+
