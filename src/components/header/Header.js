@@ -1,17 +1,20 @@
 import React from "react";
 import "../../assets/styles.css";
+import "../../assets/Card1.css";
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button, } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
 import CardBody from "../body/CardBody";
+import {  ImCart } from "react-icons/im";
+
 
 const Header = () => {
   return (
-    <div>
+    <div className="">
 
 
 
 
-      <Navbar className="Navbar" bg="" expand="lg" >
+      <Navbar className="Navbar align-content-lg-between" bg="" expand="lg" >
         <Navbar.Brand className="Navbarbrand" bg="dark" href="#action1">TechWorld </Navbar.Brand>
         <Navbar.Toggle className="dropdown-toggle" aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -28,29 +31,40 @@ const Header = () => {
             </NavDropdown>
 
           </Nav>
-          <Form className="d-flex justify-content-flex-end">
+          <Form className=" d-flex justify-content-flex-end  align-content-center">
             <FormControl
               type="search"
               placeholder="Search"
-              className="mr-2"
+              className="mr-2 align-content-center"
+              
               aria-label="Search"
             />
-            <Button variant="info">Search</Button>
+            <Button variant="info " className="align-content-center">Search</Button>
+            
+
+               {/* <button type="button" placeholder="Search"
+              className="mr-"  variant="warning" size="sm" ><ImCart/> </button> */}
+            {/* <a name="" id="" class="btn btn-info m-2"  style={{ width: "3rem" }} href="#" role="button" m-3> </a> */}
+           
           </Form>
+          <Button type="search"
+              placeholder="Search"
+              className="m-2 align-content-center"
+              aria-label="Search" size="sm" variant="warning " className="carrocompra"><ImCart/></Button>
         </Navbar.Collapse>
       </Navbar>
 
 
       {/* comenso o carousel */}
 
-      <Carousel fade className="mt-3">
-        <Carousel.Item>
+      <Carousel fade className="mt-3" >
+        <Carousel.Item >
           <img
             className="vtex-carousel-2-x-img vtex-carousel-2-x-img--mx w-75 h-75 fz-100"
             src="https://img.ibxk.com.br/2020/03/09/09111156392166.jpg?w=1120&h=420&mode=crop&scale=both"
             alt="First slide"
           />
-          <Carousel.Caption>
+          <Carousel.Caption >
             <h1>Think Big,Think Different</h1>
             <p>Technology as an important part of our lives in the present days.</p>
           </Carousel.Caption>
@@ -74,7 +88,7 @@ const Header = () => {
             alt="Third slide"
           />
 
-          <Carousel.Caption>
+          <Carousel.Caption >
             <h2>Purpose</h2>
             <p>
               Start with why and enrich others people´s lives the best way possibe by helping them, to solve their problems using our products.
@@ -157,3 +171,4 @@ const Header = () => {
 };
 
 export default Header;
+

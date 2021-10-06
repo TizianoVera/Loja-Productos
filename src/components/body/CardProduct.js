@@ -1,34 +1,26 @@
 import React, { Component } from "react";
 import { Card, Button } from "react-bootstrap";
-import { Modal } from "react-bootstrap";
-import { IconName, BsStarFill } from "react-icons/bs";
+import "./Modal"
+import { IconName, BsStarFill, } from "react-icons/bs";
 import "../../assets/Card1.css";
+import { ImCart } from "react-icons/im";
 
-export default class cCardProduct extends Component {
-  // activação do modal
-  // constructor (){
-  //    super()
-  //    this.state = {
-  //     show:false
-  //  }
 
-  // }
-  //   handleModal(){
-  //   this.setState({show:!this.state.show})
-  //  }
-  //fin activaçao do modal
+export default class CardProduct extends Component {
+
 
   render() {
+
     return (
-      <div className="cardBodyProduto">
-        <Card style={{ width: "12rem" }}>
+      <div className="cardBod">
+        <Card style={{ width: "13rem" }} >
           <Card.Img variant="top" src={this.props.img} />
 
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>{this.props.descriçao}</Card.Text>
 
-            <span>{this.props.precios} </span>
+            <span className="span price">{this.props.precios} </span>
             <div class=" icons star mt-2 mb-3 align-items-center ">
               <BsStarFill />
               <BsStarFill />
@@ -36,22 +28,34 @@ export default class cCardProduct extends Component {
               <BsStarFill />
               <BsStarFill />
             </div>
-            <div>
-              {/* button do modal */}
+            <div className="iconsconpra">
+            
+
               <Button
-                onClick={() => {
-                  this.handleModal();
-                }}
                 variant="dark"
                 size="sm"
-                className="comprautton"
+                className="comprautton" 
               >
-                Comprar
+                comprar
+              </Button>{" "}
+
+
+              <Button
+
+                variant="warning "
+                size="sm"
+                className="comprautton itenCard"
+              > 
+                <ImCart /> +
               </Button>{" "}
             </div>
           </Card.Body>
-        </Card>
+        </Card>   
+
+
       </div>
+
     );
   }
 }
+

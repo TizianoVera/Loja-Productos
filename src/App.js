@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import { Modal } from "react-bootstrap";
-
-
-
 import Header from "./components/header/Header";
 import Body from './components/body/Body.js';
 import Footer from "./components/footer/Footer";
@@ -17,7 +13,7 @@ class App extends Component {
       <div className="App">
            <Header />
            <Body />
-          <Modal/>
+          
            <Footer />
            
       </div>

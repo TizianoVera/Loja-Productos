@@ -1,13 +1,12 @@
 
 .conte {
-    margin-top: 40px !important;
+    margin-top: 40px !important; 
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    justify-content: space-between;      
     
 }
-
 
 
 .card {
@@ -19,36 +18,39 @@
     transition: transform .3s;
 }
 
+.iconsconpra{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .icons {
     color: rgb(241, 182, 20) !important;
-   padding: 3px !important;
+   
    
 }
-.cardBodyProduto{
+
+.cardBod{
+    font-size: 12px;
+}
+.span{
+    color: brown;
+}
+.cardBod ImCart{
+    
     color: black;
     font-size: 17px;
-}
-.comprautton:hover{
-    
-    box-shadow: 2px 4px 8px rgb(35, 35, 35) ;
+    transition: all 3000ms;
 
+    
 }
+
 .card:hover {
     transform: translateY(-15px);
     transition: transform .3s;
 }
-
-
-
-
-
 /* ========configuração generais */
 
-.shoe:hover,
-.watch:hover,
-.watch:hover {
-    opacity: .8;
-}
 
 .cursor {
     cursor: pointer;
