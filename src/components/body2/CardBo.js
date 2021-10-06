@@ -6,7 +6,7 @@ const CardBo = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-9">
           <div
             id="carouselExampleIndicators"
             class="carousel slide"
