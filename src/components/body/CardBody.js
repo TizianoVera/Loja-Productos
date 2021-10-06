@@ -5,7 +5,7 @@ import "../../assets/Card1.css";
 import { Card, Button, FontAwesomeIcon,  } from "react-bootstrap";
 
 import CardProduct from "./CardProduct";
-import { BsTypeH2 } from "react-icons/bs";
+//import { BsTypeH2 } from "react-icons/bs";
 
 const CardBody = () => {
   return (

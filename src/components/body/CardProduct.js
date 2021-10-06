@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card, Button } from "react-bootstrap";
-import "./Modal"
+//import "./Modal"
 import { IconName, BsStarFill, } from "react-icons/bs";
 import "../../assets/Card1.css";
 import { ImCart } from "react-icons/im";
