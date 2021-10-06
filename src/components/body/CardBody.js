@@ -99,83 +99,8 @@ const CardBody = () => {
 
         {/* ========================== fim imagem longa =========================================================*/}
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
-          <CardProduct
-            title="Laptp PHP 7"
-            variant="top"
-            img="https://tactfulminds.com/wp-content/uploads/2018/04/featured2-800x445.jpg"
-            descriçao="jhond Some quick example text to build on the card title and make up
-              the bulk of the card's content."
-            precios="R$ 1.001,12"
-          />
-        </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
-          <CardProduct
-            title="Laptp PHP 8"
-            variant="top"
-            img="https://www.cnet.com/a/img/fSG68GMMapah815ZPfwvEXrTDsE=/1200x675/2021/04/12/ec06344f-4113-4966-9b4f-8fdcd129869f/014-hp-spectre-x360-14.jpg"
-            descriçao="jhond Some quick example text to build on the card title and make up
-              the bulk of the card's content."
-            precios="R$ 5034,32"
-          />
-        </div>
 
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
-          <CardProduct
-            title="Laptp PHP 9"
-            variant="top"
-            img="https://cdn.wccftech.com/wp-content/uploads/2020/06/1_K8nqevbb3a-GWxuufuZ7uQ.png"
-            descriçao="jhond Some quick example text to build on the card title and make up
-              the bulk of the card's content."
-            precios="R$ 8034,82"
-          />
-        </div>
-
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
-          <CardProduct
-            title="Laptp PHP 10"
-            variant="top"
-            img="https://images.prismic.io/frameworkmarketplace/5d87bd50-8e78-4a7a-ade9-4356e3693416_Pre-Marketplace+-+image_02.jpg?auto=compress,format"
-            descriçao="jhond Some quick example text to build on the card title and make up
-              the bulk of the card's content."
-            precios="R$ 1.802,20"
-          />
-        </div>
-
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
-          <CardProduct
-            title="Laptp PHP 11"
-            variant="top"
-            img="https://cdn.mos.cms.futurecdn.net/QzNQrNQ6HMcb652X46WJZY-1200-80.jpg"
-            descriçao="jhond Some quick example text to build on the card title and make up
-              the bulk of the card's content."
-            precios="R$ 1.230,00"
-          />
-        </div>
-
-        <div className="col-12 col-sm-6  col-md-4 col-lg-3 col-xl-2  mt-3 ">
-          <CardProduct
-            title="Laptp PHP 12"
-            variant="top"
-            img="https://www.xmg.gg/wp-content/uploads/background_fusion-15-1920x1080.jpg"
-            descriçao="jhond Some quick example text to build on the card title and make up
-              the bulk of the card's content."
-            precios="R$ 1.000,00"
-          />
-        </div>
-
-        <div>
-          <Card className="mt-3 m-4">
-            <Card.Body>
-              <Card.Text className="cardBod container">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-            <Card.Img variant="bottom" src="https://tesla-computacion.com/modules/posslideshows/images/b8c9d4e4b046df73c6e5dc7c05d24b34fd9e239b_componentes.png" />
-          </Card>
-        </div>
       </section>
     </div>
   );
